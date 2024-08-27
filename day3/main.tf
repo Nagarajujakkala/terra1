@@ -1,8 +1,8 @@
 #create a s3 bucket
 resource "aws_s3_bucket" "name" {
     bucket = "rajubucket6789045"
+    }
   
-}
 
 #upload file into s3 bucket
 resource "aws_s3_object" "file" {
